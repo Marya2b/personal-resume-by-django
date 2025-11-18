@@ -27,14 +27,6 @@
 
   <!-- Main CSS File -->
   <link href="{%static 'css/main.css' %}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: FolioOne
-  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
-  * Updated: Aug 23 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -49,28 +41,9 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="{%url 'home' %}" class="active">Home</a></li>
+          <li><a href="{%url 'about' %}">About</a></li>
+          <li><a href="{%url 'portfolio' %}">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -99,15 +72,9 @@
               <h1 data-aos="fade-up" data-aos-delay="200">Hello, I'm <span class="highlight">Maryam Amirkhani</span></h1>
               <h2 data-aos="fade-up" data-aos-delay="300">Motivated <span class="typed" data-typed-items="Aspiring Python Backend Developer, Django Intern, Entry-Level Data Analyst, SQL & MongoDB Learner"></span></h2>
               <p data-aos="fade-up" data-aos-delay="400">A motivated Computer Engineering graduate currently focused on mastering Python and the Django framework. I leverage a solid academic foundation in software architecture and database management (SQL/NoSQL) to build efficient, project-based web applications. Eager to contribute my analytical skills and enthusiasm to a professional team.</p>
-              <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="portfolio.html" class="btn btn-primary">View My Work</a>
-                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
-              </div>
               <div class="social-links" data-aos="fade-up" data-aos-delay="600">
-                <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/maryam-amirkhani"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-dribbble"></i></a>
+                <a href="https://github.com/Marya2b?tab=repositories"><i class="bi bi-github"></i></a>
               </div>
             </div>
           </div>
